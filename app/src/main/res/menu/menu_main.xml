@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cdcmessage.cdcmessage.MainActivity">
+    <item
+        android:id="@+id/action_loadcsv"
+        android:orderInCategory="100"
+        android:title="@string/action_loadcsv"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+</menu>

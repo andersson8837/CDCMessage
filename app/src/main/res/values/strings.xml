@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CDCMessage</string>
+    <string name="action_loadcsv">Load a CSV file</string>
+    <string name="section_format">Send Message</string>
+
+    <string name="filterasc">Smallest to Largest</string>
+    <string name="filterdes">Largest To Smallest</string>
+    <string name="filterequal">Equals to</string>
+    <string name="filternotequal">Not Equals to</string>
+    <string name="filtergreaterthan">Greater than</string>
+    <string name="filtergreaterthanorequalto">Greater than or Equal to</string>
+    <string name="filterlessthan">Less than</string>
+    <string name="filterlessthanorequal">Less than or Equal to</string>
+
+</resources>

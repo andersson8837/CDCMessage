@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cdcmessage.cdcmessage.MainActivity">
+    <item
+        android:id="@+id/sortasc"
+        android:orderInCategory="100"
+        android:title="@string/filterasc"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/sortdes"
+        android:orderInCategory="100"
+        android:title="@string/filterdes"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/equalto"
+        android:orderInCategory="100"
+        android:title="@string/filterequal"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/greaterthan"
+        android:orderInCategory="100"
+        android:title="@string/filtergreaterthan"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/greaterthanorequalto"
+        android:orderInCategory="100"
+        android:title="@string/filtergreaterthanorequalto"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/lessthan"
+        android:orderInCategory="100"
+        android:title="@string/filterlessthan"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:id="@+id/lessthanorequal"
+        android:orderInCategory="100"
+        android:title="@string/filterlessthanorequal"
+        app:showAsAction="never"
+        android:icon="@android:drawable/stat_sys_download"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+
+</menu>
